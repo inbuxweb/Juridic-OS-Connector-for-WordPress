@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: Juridic-OS Connector for WordPress
- * Plugin URI: https://juridic-os.com/wordpress
+ * Plugin Name: Juridic-OS Connector
+ * Plugin URI: https://inbuxweb.com
  * Description: Integración oficial de Juridic-OS para WordPress. Conecta formularios de contacto con el sistema de gestión legal Juridic-OS.
  * Version: 1.0.0
  * Author: Inbux Web
