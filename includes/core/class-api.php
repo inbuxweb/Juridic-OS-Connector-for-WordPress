@@ -29,22 +29,19 @@ class Class_Api {
                 'timeout'   => 30,
             );
             if ($data !== null) {
-                $args['body'] = json_encode($data);
+                $args['body'] = wp_json_encode($data);
             }
             
             $response = wp_remote_request($url, $args);
             
             // Verificar errores de conexión
             if (is_wp_error($response)) {
-                // Registrar el error sin interrumpir la ejecución
-                error_log('API Request Error: ' . $response->get_error_message());
                 return null;
             }
             
             // Verificar código de respuesta HTTP
             $http_code = wp_remote_retrieve_response_code($response);
             if ($http_code < 200 || $http_code >= 300) {
-                error_log('API HTTP Error: ' . $http_code);
                 return null;
             }
             
@@ -52,14 +49,11 @@ class Class_Api {
             $data = json_decode($body, true);
             
             if (json_last_error() !== JSON_ERROR_NONE) {
-                error_log('Invalid JSON response from API');
                 return null;
             }
             
             return $data;
         } catch (\Exception $e) {
-            // Capturar cualquier otra excepción inesperada
-            error_log('Unexpected API Error: ' . $e->getMessage());
             return null;
         }
     }

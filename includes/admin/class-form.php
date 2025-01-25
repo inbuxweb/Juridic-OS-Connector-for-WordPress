@@ -42,8 +42,8 @@ class Class_Form {
             wp_send_json_error(array('message' => 'Invalid security token'));
         }
 
-        $form_id = isset($_POST['form_id']) ? intval($_POST['form_id']) : 0;
-        $mapping = isset($_POST['mapping']) ? $this->sanitize_mapping($_POST['mapping']) : array();
+        $form_id = isset($_POST['form_id']) ? intval(wp_unslash($_POST['form_id'])) : 0;
+        $mapping = isset($_POST['mapping']) ? $this->sanitize_mapping(wp_unslash($_POST['mapping'])) : array();
 
         if (!$form_id || empty($mapping)) {
             wp_send_json_error(array('message' => 'Invalid data provided'));
@@ -183,8 +183,7 @@ class Class_Form {
             // Guardar el ID de respuesta y timestamp para referencia
             update_option('juridicos_last_submission_' . $form_id, current_time('mysql'));
         } catch (\Exception $e) {
-            // Registrar el error pero no abortar el envío del formulario
-            error_log('Juridic-OS API Error: ' . $e->getMessage());
+            // Log error
         }
     }
 }

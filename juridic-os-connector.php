@@ -1,12 +1,14 @@
 <?php
 /**
  * Plugin Name: Juridic-OS Connector
- * Plugin URI: https://inbuxweb.com
+ * Plugin URI: https://addasoft.co/plataforma-de-gestion-legal/
  * Description: Integración oficial de Juridic-OS para WordPress. Conecta formularios de contacto con el sistema de gestión legal Juridic-OS.
  * Version: 1.0.0
  * Author: Inbux Web
  * Author URI: https://inbuxweb.com
  * Text Domain: juridic-os-connector
+ * License: GPLv2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
 
 // Si este archivo es llamado directamente, abortar.
@@ -21,13 +23,6 @@ define('JURIDICOS_PLUGIN_URL', plugin_dir_url(__FILE__));
 
 // Cargar el autoloader
 require_once JURIDICOS_PLUGIN_DIR . 'includes/class-juridicos-autoloader.php';
-
-function test_translation_verbose() {
-    $traduccion = __('Juridic-OS Settings', 'juridic-os-connector');;
-    error_log('Traducción completa: ' . $traduccion);
-    error_log('Longitud traducción: ' . strlen($traduccion));
-}
-add_action('init', 'test_translation_verbose');
 
 // Iniciar el plugin
 function run_juridicos() {

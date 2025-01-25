@@ -22,8 +22,5 @@ class I18n {
             false, 
             dirname(plugin_basename(JURIDICOS_PLUGIN_DIR)) . '/languages/'
         );
-        
-        error_log('Archivo MO intentado: ' . $mofile);
-        error_log('Locale actual: ' . $locale);
     }
 }
