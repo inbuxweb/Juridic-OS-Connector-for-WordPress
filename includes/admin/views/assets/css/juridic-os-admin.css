@@ -1,0 +1,64 @@
+.juridicos-admin-container {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.juridicos-admin-main {
+    flex: 2;
+}
+
+.juridicos-admin-sidebar {
+    flex: 1;
+}
+
+.juridicos-box {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.juridicos-form-manager .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.juridicos-select {
+    width: 100%;
+    max-width: 25rem;
+}
+
+.juridicos-mapping-container {
+    margin-top: 2rem;
+}
+
+.mapping-fields {
+    background: #fff;
+    padding: 1.5rem;
+    border: 1px solid #ccd0d4;
+}
+
+.field-map {
+    margin-bottom: 1rem;
+}
+
+.field-map label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.mapping-actions {
+    margin-top: 1.5rem;
+}
+
+.spinner-button .spinner {
+    visibility: visible;
+    float: left;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+.spinner-button {
+    position: relative;
+    padding-left: 30px;
+}

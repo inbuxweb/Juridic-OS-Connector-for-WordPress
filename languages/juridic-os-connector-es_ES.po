@@ -1,0 +1,168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Juridic-OS Connector for WordPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-25 19:27+0000\n"
+"PO-Revision-Date: 2025-01-25 20:31+0000\n"
+"Last-Translator: \n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.0; wp-6.7.1\n"
+"X-Domain: juridic-os-connector\n"
+
+#: includes/admin/class-settings.php:23
+msgid "API Configuration"
+msgstr "Configuración de API"
+
+#: includes/admin/class-settings.php:30
+msgid "API Key"
+msgstr "Clave API"
+
+#: includes/admin/class-settings.php:38
+msgid "API URL"
+msgstr "API URL"
+
+#: includes/admin/views/form-manager.php:8
+msgid ""
+"Contact Form 7 is not active. Please activate the plugin to use this feature."
+msgstr ""
+"Contact Form 7 no está activado. Por favor, active el plugin para utilizar "
+"esta función."
+
+#: includes/admin/class-settings.php:91
+msgid "Contacted"
+msgstr "Conectado"
+
+#: includes/admin/class-settings.php:88
+msgid "Converted"
+msgstr "Convertido"
+
+#: includes/admin/views/form-manager.php:77
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: includes/admin/views/form-manager.php:108
+msgid "Enter field ID"
+msgstr "Ingrese el ID del campo"
+
+#: includes/admin/class-settings.php:63
+msgid "Enter your Juridic-OS API Key"
+msgstr "Ingrese su clave API de Juridic-OS"
+
+#: includes/admin/class-settings.php:78
+msgid "Enter your Juridic-OS API URL"
+msgstr "Ingrese su URL API de Juridic-OS"
+
+#: includes/admin/views/form-manager.php:89
+msgid "Field"
+msgstr "Campo"
+
+#: includes/admin/views/form-manager.php:75
+msgid "First Name"
+msgstr "Nombre"
+
+#: includes/admin/views/form-manager.php:44
+msgid "Form Field Mapping"
+msgstr "Asignación de campos de formulario"
+
+#: includes/admin/views/form-manager.php:90
+msgid "Form Tag"
+msgstr "Etiqueta de Formulario"
+
+#. Author URI of the plugin
+msgid "https://inbuxweb.com"
+msgstr "https://inbuxweb.com"
+
+#. URI of the plugin
+msgid "https://juridic-os.com/wordpress"
+msgstr "https://juridic-os.com/wordpress"
+
+#. Author of the plugin
+msgid "Inbux Web"
+msgstr "Inbux Web"
+
+#: includes/admin/class-settings.php:46
+msgid "Initial status"
+msgstr "Estado por defecto"
+
+#: includes/admin/class-settings.php:105
+msgid "Initial status for new leads"
+msgstr "Estado inicial de los nuevos prospectos"
+
+#. Description of the plugin
+msgid ""
+"Integración oficial de Juridic-OS para WordPress. Conecta formularios de "
+"contacto con el sistema de gestión legal Juridic-OS."
+msgstr ""
+"Integración oficial de Juridic-OS para WordPress. Conecta formularios de "
+"contacto con el sistema de gestión legal Juridic-OS."
+
+#: includes/admin/class-settings.php:10
+msgid "Juridic-OS"
+msgstr "Juridic-OS"
+
+#. Name of the plugin
+msgid "Juridic-OS Connector for WordPress"
+msgstr "Juridic-OS Connector for WordPress"
+
+#: juridic-os-connector.php:26 includes/admin/class-settings.php:9
+msgid "Juridic-OS Settings"
+msgstr "Configuración Juridic-OS"
+
+#: includes/admin/views/form-manager.php:34
+#, php-format
+msgid "Last form submission: %s"
+msgstr "Último enviado: %s"
+
+#: includes/admin/views/form-manager.php:76
+msgid "Last Name"
+msgstr "Apellido"
+
+#: includes/admin/class-settings.php:89
+msgid "Lost"
+msgstr "Perdido"
+
+#: includes/admin/views/form-manager.php:78
+msgid "Phone"
+msgstr "Teléfono"
+
+#: includes/admin/class-settings.php:90
+msgid "Qualified"
+msgstr "Calificado"
+
+#: includes/admin/views/form-manager.php:70
+msgid "Required Fields"
+msgstr "Campos obligatorios"
+
+#: includes/admin/views/form-manager.php:26
+msgid "Save API Settings"
+msgstr "Guardar la configuración de la API"
+
+#: includes/admin/views/form-manager.php:118
+msgid "Save Mapping"
+msgstr "Guardar asignación"
+
+#: includes/admin/views/form-manager.php:52
+msgid "Select a form..."
+msgstr "Seleccionar formulario..."
+
+#: includes/admin/views/form-manager.php:49
+msgid "Select Contact Form 7"
+msgstr "Seleccionar Formulario CF7"
+
+#: includes/admin/class-settings.php:154
+msgid ""
+"To connect to Juridic-OS, you need to generate an API Key from your "
+"administration panel."
+msgstr ""
+"Para conectarte a Juridic-OS, necesitas generar una Clave API desde tu panel "
+"de administración."
+
+#: includes/admin/class-settings.php:92
+msgid "Uncontacted"
+msgstr "Sin contactar"

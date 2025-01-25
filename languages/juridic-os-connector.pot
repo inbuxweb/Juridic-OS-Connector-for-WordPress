@@ -1,0 +1,163 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Juridic-OS Connector for WordPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-25 20:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.0; wp-6.7.1\n"
+"X-Domain: juridic-os-connector"
+
+#: includes/admin/class-settings.php:23
+msgid "API Configuration"
+msgstr ""
+
+#: includes/admin/class-settings.php:30
+msgid "API Key"
+msgstr ""
+
+#: includes/admin/class-settings.php:38
+msgid "API URL"
+msgstr ""
+
+#: includes/admin/views/form-manager.php:8
+msgid ""
+"Contact Form 7 is not active. Please activate the plugin to use this feature."
+msgstr ""
+
+#: includes/admin/class-settings.php:91
+msgid "Contacted"
+msgstr ""
+
+#: includes/admin/class-settings.php:88
+msgid "Converted"
+msgstr ""
+
+#: includes/admin/views/form-manager.php:77
+msgid "Email"
+msgstr ""
+
+#: includes/admin/views/form-manager.php:108
+msgid "Enter field ID"
+msgstr ""
+
+#: includes/admin/class-settings.php:63
+msgid "Enter your Juridic-OS API Key"
+msgstr ""
+
+#: includes/admin/class-settings.php:78
+msgid "Enter your Juridic-OS API URL"
+msgstr ""
+
+#: includes/admin/views/form-manager.php:89
+msgid "Field"
+msgstr ""
+
+#: includes/admin/views/form-manager.php:75
+msgid "First Name"
+msgstr ""
+
+#: includes/admin/views/form-manager.php:44
+msgid "Form Field Mapping"
+msgstr ""
+
+#: includes/admin/views/form-manager.php:90
+msgid "Form Tag"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://inbuxweb.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://juridic-os.com/wordpress"
+msgstr ""
+
+#. Author of the plugin
+msgid "Inbux Web"
+msgstr ""
+
+#: includes/admin/class-settings.php:46
+msgid "Initial status"
+msgstr ""
+
+#: includes/admin/class-settings.php:105
+msgid "Initial status for new leads"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Integración oficial de Juridic-OS para WordPress. Conecta formularios de "
+"contacto con el sistema de gestión legal Juridic-OS."
+msgstr ""
+
+#: includes/admin/class-settings.php:10
+msgid "Juridic-OS"
+msgstr ""
+
+#. Name of the plugin
+msgid "Juridic-OS Connector for WordPress"
+msgstr ""
+
+#: juridic-os-connector.php:26 includes/admin/class-settings.php:9
+msgid "Juridic-OS Settings"
+msgstr ""
+
+#: includes/admin/views/form-manager.php:34
+#, php-format
+msgid "Last form submission: %s"
+msgstr ""
+
+#: includes/admin/views/form-manager.php:76
+msgid "Last Name"
+msgstr ""
+
+#: includes/admin/class-settings.php:89
+msgid "Lost"
+msgstr ""
+
+#: includes/admin/views/form-manager.php:78
+msgid "Phone"
+msgstr ""
+
+#: includes/admin/class-settings.php:90
+msgid "Qualified"
+msgstr ""
+
+#: includes/admin/views/form-manager.php:70
+msgid "Required Fields"
+msgstr ""
+
+#: includes/admin/views/form-manager.php:26
+msgid "Save API Settings"
+msgstr ""
+
+#: includes/admin/views/form-manager.php:118
+msgid "Save Mapping"
+msgstr ""
+
+#: includes/admin/views/form-manager.php:52
+msgid "Select a form..."
+msgstr ""
+
+#: includes/admin/views/form-manager.php:49
+msgid "Select Contact Form 7"
+msgstr ""
+
+#: includes/admin/class-settings.php:154
+msgid ""
+"To connect to Juridic-OS, you need to generate an API Key from your "
+"administration panel."
+msgstr ""
+
+#: includes/admin/class-settings.php:92
+msgid "Uncontacted"
+msgstr ""
