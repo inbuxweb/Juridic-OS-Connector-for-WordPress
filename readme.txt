@@ -1,6 +1,6 @@
 === Juridic-OS Connector ===
 Contributors: inbuxweb
-Donate link: https://juridic-os.com/
+Donate link: https://inbuxweb.com/
 Tags: contact form 7, contact forms, legal management, crm, leads
 Requires at least: WordPress 5.0
 Tested up to: 6.7

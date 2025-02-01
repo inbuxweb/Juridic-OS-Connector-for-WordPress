@@ -13,7 +13,7 @@ class Class_Admin {
     public function enqueue_styles() {
         wp_enqueue_style(
             $this->plugin_name,
-            plugin_dir_url(__FILE__) . '../../includes/admin/views/assets/css/juridic-os-admin.css',
+            JURIDICOS_PLUGIN_URL . 'includes/admin/views/assets/css/juridic-os-admin.css',
             array(),
             $this->version,
             'all'
@@ -21,9 +21,10 @@ class Class_Admin {
     }
 
     public function enqueue_scripts() {
+
         wp_enqueue_script(
             $this->plugin_name,
-            plugin_dir_url(__FILE__) . '../../includes/admin/views/assets/js/juridic-os-admin.js',
+            JURIDICOS_PLUGIN_URL . 'includes/admin/views/assets/js/juridic-os-admin.js',
             array('jquery'),
             $this->version,
             false
