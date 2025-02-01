@@ -11,16 +11,11 @@ class Class_Plugin {
         $this->plugin_name = 'juridic-os-connector';
         
         $this->load_dependencies();
-        $this->set_locale();
         $this->define_admin_hooks();
     }
 
     private function load_dependencies() {
         $this->loader = new Class_Loader();
-    }
-
-    private function set_locale() {
-        new I18n();
     }
 
     private function define_admin_hooks() {

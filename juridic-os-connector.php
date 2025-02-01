@@ -3,7 +3,7 @@
  * Plugin Name: Juridic-OS Connector
  * Plugin URI: https://addasoft.co/plataforma-de-gestion-legal/
  * Description: Integración oficial de Juridic-OS para WordPress. Conecta formularios de contacto con el sistema de gestión legal Juridic-OS.
- * Version: 1.0.0
+ * Version: 1.0.3
  * Author: Inbux Web
  * Author URI: https://inbuxweb.com
  * Text Domain: juridic-os-connector
